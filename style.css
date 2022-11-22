@@ -1,0 +1,77 @@
+body{
+   background-image: url(./background.jpg);
+   background-size: cover;
+}
+
+.box{
+    background-color: rgba(0, 0, 0, 0.629);
+    box-sizing: border-box;
+    height: 900px;
+    width: 1250px;
+    margin: auto;
+    border-radius: 25px;
+
+}
+
+.contenitore{
+    display: flex; justify-content: center; 
+}
+
+img{
+    margin-top: 100px;
+
+}
+
+.coloreverde{
+   color: rgb(0, 255, 17); 
+   font-family: Arial, Helvetica, sans-serif;
+   text-align: center;
+}
+
+.contenitorepovero{
+    display: flex; justify-content: center;
+    background-color: rgb(0, 255, 17);
+    margin: 0 100px 0 100px;
+    border-radius: 10px;
+}
+
+
+button{
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+
+.monopattino{
+    display: flex; justify-content: flex-start;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+.posizione{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.batteriascarica{
+height: 30px;
+background-color: red;
+width: 15%;
+border-radius: 10px;
+}
+
+.batteriamezza{
+    height: 30px;
+    background-color: rgb(213, 216, 15);
+    width: 35%;
+    border-radius: 10px;
+}
+
+.batteriapiena{
+    height: 30px;
+    background-color: rgb(35, 199, 6);
+    width: 80%;
+    border-radius: 10px;
+}
